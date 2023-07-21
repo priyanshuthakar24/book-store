@@ -34,6 +34,7 @@ function Navigation() {
         path="/edit-user/:id"
         element={authData.id ? <EditUser /> : Redirect}
       />
+      
       <Route
         path="/categories"
         element={authData.id ? <Categories /> : Redirect}
